@@ -500,3 +500,33 @@ form input[type="submit"]
 {
     width: 1.5em;
 }
+
+/* Responsive Codes */
+@media screen and (max-width: 768px) {
+    /* the codes below will only be applied to screen width of 0px-768px */
+    
+    .nav ul 
+    {
+        display: none;
+    }
+    .ads-items
+    {
+        width: 100%;
+    }
+    .merch-items
+    {
+        width: 49%;
+    }
+    .form-group
+    {
+        width: 100%;
+    }
+    .footer-widgets
+    {
+        width: 49%;
+    }
+    .form-group
+    {
+        margin-top: 0;
+    }
+}
